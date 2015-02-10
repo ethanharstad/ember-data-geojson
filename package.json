@@ -1,7 +1,7 @@
 {
   "name": "ember-data-geojson",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember-CLI addon to add GeoJSON functionality to ember-data.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Ethan Harstad <ethanharstad@gmail.com> (http://ethanharstad.github.io)",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
@@ -33,7 +33,10 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-data",
+    "ember-cli",
+    "GeoJSON"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
